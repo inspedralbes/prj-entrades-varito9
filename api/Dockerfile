@@ -1,4 +1,4 @@
-FROM php:8.2-cli-bookworm
+FROM php:8.4-cli-bookworm
 
 # Instalar dependencias del sistema y extensiones PHP para Laravel
 RUN apt-get update -y && apt-get install -y --fix-missing \
